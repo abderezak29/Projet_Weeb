@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body.Acceuil{
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+textarea {
+    width: 100%; /* Utilisez 100% de la largeur du contenant */
+    max-width: 100%; /* Limite la largeur à 100% pour s'adapter aux écrans plus petits */
+    
+}
+main {
+    
+    background-color: rgb(32, 38, 38);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: lowercase;
+    margin-top: 0px;
+width: 97%;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.product-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex-basis: calc(33.33% - 20px); /* Répartir l'espace sur 3 colonnes avec une marge de 20px entre les produits */
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%; /* Pour que les images s'ajustent à la largeur de la div parent */
+}
